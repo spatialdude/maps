@@ -10231,7 +10231,7 @@
    "sprite":"https://www.arcgis.com/sharing/rest/content/items/a60a37a27cc140ddad15f919cd5a69f2/resources/styles/../sprites/sprite",
    "sources":{
       "esri":{
-         "url":"https://basemaps.arcgis.com/v1/arcgis/rest/services/World_Basemap/VectorTileServer",
+         "url":"https://raw.githubusercontent.com/spatialdude/maps/master/streets/tiles.json",
          "type":"vector"
       }
    }
