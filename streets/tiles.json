@@ -1,0 +1,25 @@
+{  
+   "attribution":"ArcGIS",
+   "bounds":[  
+      -180,
+      -85.0511,
+      180,
+      85.0511
+   ],
+   "center":[  
+      0,
+      0,
+      0
+   ],
+   "format":"pbf",
+   "mapbox_logo":false,
+   "maxzoom":20,
+   "minzoom":0,
+   "name":"ArcGIS Streets",
+   "description": "ArcGIS Vector Streets",
+   "scheme":"xyz",
+   "tilejson":"2.2.0",
+   "tiles":[  
+       "https://basemaps.arcgis.com/v1/arcgis/rest/services/World_Basemap/VectorTileServer/tile/{z}/{y}/{x}.pbf"
+   ]
+}
