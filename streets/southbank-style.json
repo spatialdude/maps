@@ -5,7 +5,7 @@
    "sources":{  
       "esri":{  
          "type":"vector",
-         "url":"../../"
+         "url":"https://raw.githubusercontent.com/spatialdude/maps/master/streets/southbank-tiles.json"
       }
    },
    "layers":[  
