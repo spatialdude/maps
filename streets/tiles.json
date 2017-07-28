@@ -13,7 +13,7 @@
    ],
    "format":"pbf",
    "mapbox_logo":false,
-   "maxzoom":21,
+   "maxzoom":18,
    "minzoom":0,
    "name":"ArcGIS Streets",
    "description": "ArcGIS Vector Streets",
