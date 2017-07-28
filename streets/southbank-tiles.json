@@ -20,6 +20,6 @@
    "scheme":"xyz",
    "tilejson":"2.2.0",
    "tiles":[  
-       "https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankMao/VectorTileServer/tile/{z}/{y}/{x}.pbf"
+       "https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankVT/VectorTileServer/tile/{z}/{y}/{x}.pbf"
    ]
 }

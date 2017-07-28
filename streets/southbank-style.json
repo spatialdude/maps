@@ -1,14 +1,21 @@
 {  
    "version":8,
-   "sprite":"https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankMao/VectorTileServer/resources/sprites/sprite",
-   "glyphs":"https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankMao/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
+   "sprite":"https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankVT/VectorTileServer/resources/sprites/sprite",
+   "glyphs":"https://tiles.arcgis.com/tiles/e7dVfn25KpfE6dDd/arcgis/rest/services/SouthbankVT/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
    "sources":{  
       "esri":{  
          "type":"vector",
-         "url":"https://raw.githubusercontent.com/spatialdude/maps/master/streets/southbank-tiles.json"
+         "url":"../../"
       }
    },
    "layers":[  
+      {  
+         "id":"background",
+         "type":"background",
+         "paint":{  
+            "background-color":"#FFEBBE"
+         }
+      },
       {  
          "id":"Buildings",
          "type":"fill",
@@ -71,12 +78,15 @@
             1
          ],
          "layout":{  
-            "line-cap":"round",
             "line-join":"round"
          },
          "paint":{  
-            "line-color":"#000000",
-            "line-width":2.66667
+            "line-color":"#6699CD",
+            "line-width":1.46667,
+            "line-dasharray":[  
+               4.54545,
+               1.81818
+            ]
          }
       },
       {  
@@ -203,7 +213,7 @@
             "text-optional":true
          },
          "paint":{  
-            "text-color":"#000000"
+            "text-color":"#7AB6F5"
          }
       }
    ]
