@@ -1,5 +1,5 @@
 {  
-   "attribution":"ArcGIS",
+   "attribution":"<a href=\"http://melbournedev.maps.arcgis.com/home/item.html?id=a60a37a27cc140ddad15f919cd5a69f2\"ArcGIS</a>",
    "bounds":[  
       -180,
       -85.0511,
@@ -13,7 +13,7 @@
    ],
    "format":"pbf",
    "mapbox_logo":false,
-   "maxzoom":20,
+   "maxzoom":21,
    "minzoom":0,
    "name":"ArcGIS Streets",
    "description": "ArcGIS Vector Streets",
